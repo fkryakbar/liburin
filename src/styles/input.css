@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  /* Optimasi performa glassmorphism mobile: menggunakan kombinasi properti yang terakselerasi perangkat keras */
+  .glass-card {
+    background-color: rgba(17, 24, 39, 0.75);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+  
+  /* Sembunyikan scrollbar untuk tampilan yang lebih mulus dan bersih */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+body {
+  background-color: #0b0f19;
+  color: #f3f4f6;
+}

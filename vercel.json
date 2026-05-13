@@ -1,0 +1,10 @@
+{
+  "framework": null,
+  "buildCommand": "bun run build:css",
+  "outputDirectory": "public",
+  "functions": {
+    "api/**/*.ts": {
+      "includeFiles": "data/holidays.json"
+    }
+  }
+}

@@ -1,0 +1,641 @@
+{
+  "last_updated": "2026-05-13T07:02:31+08:00",
+  "data": [
+    {
+      "is_holiday": true,
+      "name": "Tahun Baru 2023 Masehi",
+      "type": "Libur Nasional",
+      "date": "2023-01-01"
+    },
+    {
+      "is_holiday": true,
+      "name": "Tahun Baru Imlek 2574 Kongzili",
+      "type": "Libur Nasional",
+      "date": "2023-01-22"
+    },
+    {
+      "is_holiday": true,
+      "name": "Cuti Tahun Baru Imlek 2574 Kongzili",
+      "type": "Cuti Bersama",
+      "date": "2023-01-23"
+    },
+    {
+      "is_holiday": true,
+      "name": "Isra Mikraj Nabi Muhammad SAW",
+      "type": "Libur Nasional",
+      "date": "2023-02-18"
+    },
+    {
+      "is_holiday": true,
+      "name": "Hari Suci Nyepi Tahun Baru Saka 1945",
+      "type": "Libur Nasional",
+      "date": "2023-03-22"
+    },
+    {
+      "is_holiday": true,
+      "name": "Cuti Hari Suci Nyepi Tahun Baru Saka 1945",
+      "type": "Cuti Bersama",
+      "date": "2023-03-23"
+    },
+    {
+      "is_holiday": true,
+      "name": "Wafat Yesus Kristus",
+      "type": "Libur Nasional",
+      "date": "2023-04-07"
+    },
+    {
+      "is_holiday": true,
+      "name": "Cuti Hari Raya Idulfitri 1444 Hijriah",
+      "type": "Cuti Bersama",
+      "date": "2023-04-19"
+    },
+    {
+      "is_holiday": true,
+      "name": "Cuti Hari Raya Idulfitri 1444 Hijriah",
+      "type": "Cuti Bersama",
+      "date": "2023-04-20"
+    },
+    {
+      "is_holiday": true,
+      "name": "Cuti Hari Raya Idulfitri 1444 Hijriah",
+      "type": "Cuti Bersama",
+      "date": "2023-04-21"
+    },
+    {
+      "is_holiday": true,
+      "name": "Hari Raya Idulfitri 1444 Hijriah",
+      "type": "Libur Nasional",
+      "date": "2023-04-22"
+    },
+    {
+      "is_holiday": true,
+      "name": "Hari Raya Idulfitri 1444 Hijriah",
+      "type": "Libur Nasional",
+      "date": "2023-04-23"
+    },
+    {
+      "is_holiday": true,
+      "name": "Cuti Hari Raya Idulfitri 1444 Hijriah",
+      "type": "Cuti Bersama",
+      "date": "2023-04-24"
+    },
+    {
+      "is_holiday": true,
+      "name": "Cuti Hari Raya Idulfitri 1444 Hijriah",
+      "type": "Cuti Bersama",
+      "date": "2023-04-25"
+    },
+    {
+      "is_holiday": true,
+      "name": "Hari Buruh Internasional",
+      "type": "Libur Nasional",
+      "date": "2023-05-01"
+    },
+    {
+      "is_holiday": true,
+      "name": "Kenaikan Yesus Kristus",
+      "type": "Libur Nasional",
+      "date": "2023-05-18"
+    },
+    {
+      "is_holiday": true,
+      "name": "Hari Lahir Pancasila",
+      "type": "Libur Nasional",
+      "date": "2023-06-01"
+    },
+    {
+      "is_holiday": true,
+      "name": "Cuti Hari Raya Waisak 2567",
+      "type": "Cuti Bersama",
+      "date": "2023-06-02"
+    },
+    {
+      "is_holiday": true,
+      "name": "Hari Raya Waisak 2567",
+      "type": "Libur Nasional",
+      "date": "2023-06-04"
+    },
+    {
+      "is_holiday": true,
+      "name": "Cuti Hari Raya Iduladha 1444 Hijriah",
+      "type": "Cuti Bersama",
+      "date": "2023-06-28"
+    },
+    {
+      "is_holiday": true,
+      "name": "Hari Raya Iduladha 1444 Hijriah",
+      "type": "Libur Nasional",
+      "date": "2023-06-29"
+    },
+    {
+      "is_holiday": true,
+      "name": "Cuti Hari Raya Iduladha 1444 Hijriah",
+      "type": "Cuti Bersama",
+      "date": "2023-06-30"
+    },
+    {
+      "is_holiday": true,
+      "name": "Tahun Baru Islam 1445 Hijriah",
+      "type": "Libur Nasional",
+      "date": "2023-07-19"
+    },
+    {
+      "is_holiday": true,
+      "name": "Hari Kemerdekaan Republik Indonesia",
+      "type": "Libur Nasional",
+      "date": "2023-08-17"
+    },
+    {
+      "is_holiday": true,
+      "name": "Maulid Nabi Muhammad SAW",
+      "type": "Libur Nasional",
+      "date": "2023-09-28"
+    },
+    {
+      "is_holiday": true,
+      "name": "Hari Raya Natal",
+      "type": "Libur Nasional",
+      "date": "2023-12-25"
+    },
+    {
+      "is_holiday": true,
+      "name": "Cuti Hari Raya Natal",
+      "type": "Cuti Bersama",
+      "date": "2023-12-26"
+    },
+    {
+      "is_holiday": true,
+      "name": "Tahun Baru 2024 Masehi",
+      "type": "Libur Nasional",
+      "date": "2024-01-01"
+    },
+    {
+      "is_holiday": true,
+      "name": "Isra Mikraj Nabi Muhammad SAW",
+      "type": "Libur Nasional",
+      "date": "2024-02-08"
+    },
+    {
+      "is_holiday": true,
+      "name": "Cuti Tahun Baru Imlek 2575 Kongzili",
+      "type": "Cuti Bersama",
+      "date": "2024-02-09"
+    },
+    {
+      "is_holiday": true,
+      "name": "Tahun Baru Imlek 2575 Kongzili",
+      "type": "Libur Nasional",
+      "date": "2024-02-10"
+    },
+    {
+      "is_holiday": true,
+      "name": "Hari Suci Nyepi Tahun Baru Saka 1946",
+      "type": "Libur Nasional",
+      "date": "2024-03-11"
+    },
+    {
+      "is_holiday": true,
+      "name": "Cuti Hari Suci Nyepi Tahun Baru Saka 1946",
+      "type": "Cuti Bersama",
+      "date": "2024-03-12"
+    },
+    {
+      "is_holiday": true,
+      "name": "Wafat Yesus Kristus",
+      "type": "Libur Nasional",
+      "date": "2024-03-29"
+    },
+    {
+      "is_holiday": true,
+      "name": "Hari Paskah",
+      "type": "Libur Nasional",
+      "date": "2024-03-31"
+    },
+    {
+      "is_holiday": true,
+      "name": "Cuti Hari Raya Idulfitri 1445 Hijriah",
+      "type": "Cuti Bersama",
+      "date": "2024-04-08"
+    },
+    {
+      "is_holiday": true,
+      "name": "Cuti Hari Raya Idulfitri 1445 Hijriah",
+      "type": "Cuti Bersama",
+      "date": "2024-04-09"
+    },
+    {
+      "is_holiday": true,
+      "name": "Hari Raya Idulfitri 1445 Hijriah",
+      "type": "Libur Nasional",
+      "date": "2024-04-10"
+    },
+    {
+      "is_holiday": true,
+      "name": "Hari Raya Idulfitri 1445 Hijriah",
+      "type": "Libur Nasional",
+      "date": "2024-04-11"
+    },
+    {
+      "is_holiday": true,
+      "name": "Cuti Hari Raya Idulfitri 1445 Hijriah",
+      "type": "Cuti Bersama",
+      "date": "2024-04-12"
+    },
+    {
+      "is_holiday": true,
+      "name": "Cuti Hari Raya Idulfitri 1445 Hijriah",
+      "type": "Cuti Bersama",
+      "date": "2024-04-15"
+    },
+    {
+      "is_holiday": true,
+      "name": "Hari Buruh Internasional",
+      "type": "Libur Nasional",
+      "date": "2024-05-01"
+    },
+    {
+      "is_holiday": true,
+      "name": "Kenaikan Yesus Kristus",
+      "type": "Libur Nasional",
+      "date": "2024-05-09"
+    },
+    {
+      "is_holiday": true,
+      "name": "Cuti Kenaikan Yesus Kristus",
+      "type": "Cuti Bersama",
+      "date": "2024-05-10"
+    },
+    {
+      "is_holiday": true,
+      "name": "Hari Raya Waisak 2568",
+      "type": "Libur Nasional",
+      "date": "2024-05-23"
+    },
+    {
+      "is_holiday": true,
+      "name": "Cuti Hari Raya Waisak 2568",
+      "type": "Cuti Bersama",
+      "date": "2024-05-24"
+    },
+    {
+      "is_holiday": true,
+      "name": "Hari Lahir Pancasila",
+      "type": "Libur Nasional",
+      "date": "2024-06-01"
+    },
+    {
+      "is_holiday": true,
+      "name": "Hari Raya Iduladha 1445 Hijriah",
+      "type": "Libur Nasional",
+      "date": "2024-06-17"
+    },
+    {
+      "is_holiday": true,
+      "name": "Cuti Hari Raya Iduladha 1445 Hijriah",
+      "type": "Cuti Bersama",
+      "date": "2024-06-18"
+    },
+    {
+      "is_holiday": true,
+      "name": "Tahun Baru Islam 1446 Hijriah",
+      "type": "Libur Nasional",
+      "date": "2024-07-07"
+    },
+    {
+      "is_holiday": true,
+      "name": "Hari Kemerdekaan Republik Indonesia",
+      "type": "Libur Nasional",
+      "date": "2024-08-17"
+    },
+    {
+      "is_holiday": true,
+      "name": "Maulid Nabi Muhammad SAW",
+      "type": "Libur Nasional",
+      "date": "2024-09-16"
+    },
+    {
+      "is_holiday": true,
+      "name": "Hari Raya Natal",
+      "type": "Libur Nasional",
+      "date": "2024-12-25"
+    },
+    {
+      "is_holiday": true,
+      "name": "Cuti Hari Raya Natal",
+      "type": "Cuti Bersama",
+      "date": "2024-12-26"
+    },
+    {
+      "is_holiday": true,
+      "name": "Tahun Baru 2025 Masehi",
+      "type": "Libur Nasional",
+      "date": "2025-01-01"
+    },
+    {
+      "is_holiday": true,
+      "name": "Isra Mikraj Nabi Muhammad SAW",
+      "type": "Libur Nasional",
+      "date": "2025-01-27"
+    },
+    {
+      "is_holiday": true,
+      "name": "Cuti Tahun Baru Imlek 2576 Kongzili",
+      "type": "Cuti Bersama",
+      "date": "2025-01-28"
+    },
+    {
+      "is_holiday": true,
+      "name": "Tahun Baru Imlek 2576 Kongzili",
+      "type": "Libur Nasional",
+      "date": "2025-01-29"
+    },
+    {
+      "is_holiday": true,
+      "name": "Cuti Hari Suci Nyepi Tahun Baru Saka 1947",
+      "type": "Cuti Bersama",
+      "date": "2025-03-28"
+    },
+    {
+      "is_holiday": true,
+      "name": "Hari Suci Nyepi Tahun Baru Saka 1947",
+      "type": "Libur Nasional",
+      "date": "2025-03-29"
+    },
+    {
+      "is_holiday": true,
+      "name": "Hari Raya Idulfitri 1446 Hijriah",
+      "type": "Libur Nasional",
+      "date": "2025-03-31"
+    },
+    {
+      "is_holiday": true,
+      "name": "Hari Raya Idulfitri 1446 Hijriah",
+      "type": "Libur Nasional",
+      "date": "2025-04-01"
+    },
+    {
+      "is_holiday": true,
+      "name": "Cuti Hari Raya Idulfitri 1446 Hijriah",
+      "type": "Cuti Bersama",
+      "date": "2025-04-02"
+    },
+    {
+      "is_holiday": true,
+      "name": "Cuti Hari Raya Idulfitri 1446 Hijriah",
+      "type": "Cuti Bersama",
+      "date": "2025-04-03"
+    },
+    {
+      "is_holiday": true,
+      "name": "Cuti Hari Raya Idulfitri 1446 Hijriah",
+      "type": "Cuti Bersama",
+      "date": "2025-04-04"
+    },
+    {
+      "is_holiday": true,
+      "name": "Cuti Hari Raya Idulfitri 1446 Hijriah",
+      "type": "Cuti Bersama",
+      "date": "2025-04-07"
+    },
+    {
+      "is_holiday": true,
+      "name": "Wafat Yesus Kristus",
+      "type": "Libur Nasional",
+      "date": "2025-04-18"
+    },
+    {
+      "is_holiday": true,
+      "name": "Hari Paskah",
+      "type": "Libur Nasional",
+      "date": "2025-04-20"
+    },
+    {
+      "is_holiday": true,
+      "name": "Hari Buruh Internasional",
+      "type": "Libur Nasional",
+      "date": "2025-05-01"
+    },
+    {
+      "is_holiday": true,
+      "name": "Hari Raya Waisak 2569",
+      "type": "Libur Nasional",
+      "date": "2025-05-12"
+    },
+    {
+      "is_holiday": true,
+      "name": "Cuti Hari Raya Waisak 2569",
+      "type": "Cuti Bersama",
+      "date": "2025-05-13"
+    },
+    {
+      "is_holiday": true,
+      "name": "Kenaikan Yesus Kristus",
+      "type": "Libur Nasional",
+      "date": "2025-05-29"
+    },
+    {
+      "is_holiday": true,
+      "name": "Cuti Kenaikan Yesus Kristus",
+      "type": "Cuti Bersama",
+      "date": "2025-05-30"
+    },
+    {
+      "is_holiday": true,
+      "name": "Hari Lahir Pancasila",
+      "type": "Libur Nasional",
+      "date": "2025-06-01"
+    },
+    {
+      "is_holiday": true,
+      "name": "Hari Raya Iduladha 1446 Hijriah",
+      "type": "Libur Nasional",
+      "date": "2025-06-06"
+    },
+    {
+      "is_holiday": true,
+      "name": "Cuti Hari Raya Iduladha 1446 Hijriah",
+      "type": "Cuti Bersama",
+      "date": "2025-06-09"
+    },
+    {
+      "is_holiday": true,
+      "name": "Tahun Baru Islam 1447 Hijriah",
+      "type": "Libur Nasional",
+      "date": "2025-06-27"
+    },
+    {
+      "is_holiday": true,
+      "name": "Hari Kemerdekaan Republik Indonesia",
+      "type": "Libur Nasional",
+      "date": "2025-08-17"
+    },
+    {
+      "is_holiday": true,
+      "name": "Maulid Nabi Muhammad SAW",
+      "type": "Libur Nasional",
+      "date": "2025-09-05"
+    },
+    {
+      "is_holiday": true,
+      "name": "Hari Raya Natal",
+      "type": "Libur Nasional",
+      "date": "2025-12-25"
+    },
+    {
+      "is_holiday": true,
+      "name": "Cuti Hari Raya Natal",
+      "type": "Cuti Bersama",
+      "date": "2025-12-26"
+    },
+    {
+      "is_holiday": true,
+      "name": "Tahun Baru Masehi 2026",
+      "type": "Libur Nasional",
+      "date": "2026-01-01"
+    },
+    {
+      "is_holiday": true,
+      "name": "Isra Mikraj Nabi Muhammad SAW",
+      "type": "Libur Nasional",
+      "date": "2026-01-16"
+    },
+    {
+      "is_holiday": true,
+      "name": "Cuti Tahun Baru Imlek 2577 Kongzili",
+      "type": "Cuti Bersama",
+      "date": "2026-02-16"
+    },
+    {
+      "is_holiday": true,
+      "name": "Tahun Baru Imlek 2577 Kongzili",
+      "type": "Libur Nasional",
+      "date": "2026-02-17"
+    },
+    {
+      "is_holiday": true,
+      "name": "Cuti Hari Suci Nyepi Tahun Baru Saka 1948",
+      "type": "Cuti Bersama",
+      "date": "2026-03-18"
+    },
+    {
+      "is_holiday": true,
+      "name": "Hari Suci Nyepi Tahun Baru Saka 1948",
+      "type": "Libur Nasional",
+      "date": "2026-03-19"
+    },
+    {
+      "is_holiday": true,
+      "name": "Cuti Hari Raya Idulfitri 1447 Hijriah",
+      "type": "Cuti Bersama",
+      "date": "2026-03-20"
+    },
+    {
+      "is_holiday": true,
+      "name": "Hari Raya Idulfitri 1447 Hijriah",
+      "type": "Libur Nasional",
+      "date": "2026-03-21"
+    },
+    {
+      "is_holiday": true,
+      "name": "Hari Raya Idulfitri 1447 Hijriah",
+      "type": "Libur Nasional",
+      "date": "2026-03-22"
+    },
+    {
+      "is_holiday": true,
+      "name": "Cuti Hari Raya Idulfitri 1447 Hijriah",
+      "type": "Cuti Bersama",
+      "date": "2026-03-23"
+    },
+    {
+      "is_holiday": true,
+      "name": "Cuti Hari Raya Idulfitri 1447 Hijriah",
+      "type": "Cuti Bersama",
+      "date": "2026-03-24"
+    },
+    {
+      "is_holiday": true,
+      "name": "Wafat Yesus Kristus",
+      "type": "Libur Nasional",
+      "date": "2026-04-03"
+    },
+    {
+      "is_holiday": true,
+      "name": "Hari Paskah",
+      "type": "Libur Nasional",
+      "date": "2026-04-05"
+    },
+    {
+      "is_holiday": true,
+      "name": "Hari Buruh Internasional",
+      "type": "Libur Nasional",
+      "date": "2026-05-01"
+    },
+    {
+      "is_holiday": true,
+      "name": "Kenaikan Yesus Kristus",
+      "type": "Libur Nasional",
+      "date": "2026-05-14"
+    },
+    {
+      "is_holiday": true,
+      "name": "Cuti Kenaikan Yesus Kristus",
+      "type": "Cuti Bersama",
+      "date": "2026-05-15"
+    },
+    {
+      "is_holiday": true,
+      "name": "Hari Raya Iduladha 1447 Hijriah",
+      "type": "Libur Nasional",
+      "date": "2026-05-27"
+    },
+    {
+      "is_holiday": true,
+      "name": "Cuti Hari Raya Iduladha 1447 Hijriah",
+      "type": "Cuti Bersama",
+      "date": "2026-05-28"
+    },
+    {
+      "is_holiday": true,
+      "name": "Hari Raya Waisak 2570",
+      "type": "Libur Nasional",
+      "date": "2026-05-31"
+    },
+    {
+      "is_holiday": true,
+      "name": "Hari Lahir Pancasila",
+      "type": "Libur Nasional",
+      "date": "2026-06-01"
+    },
+    {
+      "is_holiday": true,
+      "name": "Tahun Baru Islam 1448 Hijriah",
+      "type": "Libur Nasional",
+      "date": "2026-06-16"
+    },
+    {
+      "is_holiday": true,
+      "name": "Hari Kemerdekaan Republik Indonesia",
+      "type": "Libur Nasional",
+      "date": "2026-08-17"
+    },
+    {
+      "is_holiday": true,
+      "name": "Maulid Nabi Muhammad SAW",
+      "type": "Libur Nasional",
+      "date": "2026-08-25"
+    },
+    {
+      "is_holiday": true,
+      "name": "Cuti Hari Raya Natal",
+      "type": "Cuti Bersama",
+      "date": "2026-12-24"
+    },
+    {
+      "is_holiday": true,
+      "name": "Hari Raya Natal",
+      "type": "Libur Nasional",
+      "date": "2026-12-25"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+name: Mingguan Scraper Hari Libur Indonesia
+
+on:
+  schedule:
+    # Berjalan setiap hari Minggu jam 00:00 UTC
+    - cron: '0 0 * * 0'
+  workflow_dispatch: # Mengizinkan pemicuan manual melalui antarmuka Actions
+
+permissions:
+  contents: write
+
+jobs:
+  scrape-and-update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Bun Runtime
+        uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
+
+      - name: Install Dependencies
+        run: bun install
+
+      - name: Jalankan Scraper
+        # Jika skrip scraper gagal atau menghasilkan data kosong, exit code 1 akan menghentikan job di sini
+        run: bun run scrape
+
+      - name: Periksa Perubahan dan Commit
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          # Cek apakah ada perubahan pada berkas data/holidays.json
+          if [[ -n $(git status -s data/holidays.json) ]]; then
+            echo "Ditemukan pembaruan data libur/cuti. Melakukan commit..."
+            git add data/holidays.json
+            git commit -m "chore(data): pembaruan otomatis data hari libur mingguan [skip ci]"
+            git push
+          else
+            echo "Tidak ada perubahan data pada minggu ini."
+          fi

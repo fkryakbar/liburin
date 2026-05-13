@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Berkas Lingkungan / Kredensial Lokal
+.env
+.env.local
+.env.*.local
+
+# Log dan Berkas Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+bun.log
+
+# Direktori Build/Kompilasi (opsional, public/styles.css di-build secara otomatis)
+# public/styles.css
+
+# Sistem Operasi
+.DS_Store
+Thumbs.db
