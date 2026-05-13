@@ -2,6 +2,7 @@ import * as cheerio from 'cheerio';
 import { mkdir, writeFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import { resolve } from 'node:path';
+import { getGMT8Timestamp } from './utils/date';
 
 export interface HolidayItem {
   is_holiday: boolean;
@@ -38,21 +39,6 @@ function parseIndonesianDate(dateStr: string, year: number): string | null {
   if (!month || isNaN(day)) return null;
   const dayStr = day < 10 ? `0${day}` : `${day}`;
   return `${year}-${month}-${dayStr}`;
-}
-
-function getGMT8Timestamp(): string {
-  const now = new Date();
-  const utc = now.getTime() + (now.getTimezoneOffset() * 60000);
-  const gmt8Date = new Date(utc + (8 * 3600000));
-  
-  const yyyy = gmt8Date.getFullYear();
-  const mm = String(gmt8Date.getMonth() + 1).padStart(2, '0');
-  const dd = String(gmt8Date.getDate()).padStart(2, '0');
-  const hh = String(gmt8Date.getHours()).padStart(2, '0');
-  const min = String(gmt8Date.getMinutes()).padStart(2, '0');
-  const ss = String(gmt8Date.getSeconds()).padStart(2, '0');
-  
-  return `${yyyy}-${mm}-${dd}T${hh}:${min}:${ss}+08:00`;
 }
 
 async function scrapeYear(year: number): Promise<HolidayItem[]> {

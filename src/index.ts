@@ -12,7 +12,6 @@ Bun.serve({
     const url = new URL(req.url);
     const pathname = url.pathname;
 
-    // Header standar untuk mengizinkan akses CORS lintas asal
     const corsHeaders = {
       'Access-Control-Allow-Origin': '*',
       'Access-Control-Allow-Methods': 'GET, OPTIONS',
@@ -20,7 +19,6 @@ Bun.serve({
       'Content-Type': 'application/json'
     };
 
-    // Tangani preflight request OPTIONS
     if (req.method === 'OPTIONS') {
       return new Response(null, { headers: corsHeaders });
     }
@@ -42,12 +40,18 @@ Bun.serve({
         return new Response(JSON.stringify(data, null, 2), { headers: corsHeaders });
       }
 
+      if (pathname === '/api/upcoming' || pathname === '/api/upcoming/') {
+        const limitParam = url.searchParams.get('limit');
+        const limit = limitParam ? parseInt(limitParam, 10) : 5;
+        const data = HolidayService.getUpcoming(limit);
+        return new Response(JSON.stringify(data, null, 2), { headers: corsHeaders });
+      }
+
       if (pathname === '/api/meta' || pathname === '/api/meta/') {
         const data = HolidayService.getMeta();
         return new Response(JSON.stringify(data, null, 2), { headers: corsHeaders });
       }
 
-      // Default /api endpoint dengan filter query parameters
       if (pathname === '/api' || pathname === '/api/') {
         const monthParam = url.searchParams.get('month');
         const yearParam = url.searchParams.get('year');
@@ -55,11 +59,18 @@ Bun.serve({
         const month = monthParam ? parseInt(monthParam, 10) : undefined;
         const year = yearParam ? parseInt(yearParam, 10) : undefined;
 
+        const validationError = HolidayService.validateQueryParams(month, year);
+        if (validationError) {
+          return new Response(JSON.stringify({ error: validationError }, null, 2), {
+            status: 400,
+            headers: corsHeaders
+          });
+        }
+
         const data = HolidayService.queryHolidays(month, year);
         return new Response(JSON.stringify(data, null, 2), { headers: corsHeaders });
       }
 
-      // Jika endpoint /api/* tidak ditemukan
       return new Response(JSON.stringify({ error: 'Endpoint API tidak ditemukan' }, null, 2), {
         status: 404,
         headers: corsHeaders
@@ -67,7 +78,6 @@ Bun.serve({
     }
 
     // --- SERVER BERKAS STATIS (LANDING PAGE) ---
-    // Bersihkan path dan cegah directory traversal
     let safePath = pathname === '/' ? '/index.html' : pathname;
     const filePath = resolve(__dirname, '../public', safePath.slice(1));
 
@@ -75,7 +85,6 @@ Bun.serve({
       const stat = statSync(filePath);
       if (stat.isFile()) {
         const file = Bun.file(filePath);
-        // Tentukan Content-Type untuk file statis umum
         let contentType = 'text/plain';
         if (filePath.endsWith('.html')) contentType = 'text/html; charset=utf-8';
         else if (filePath.endsWith('.css')) contentType = 'text/css; charset=utf-8';
@@ -93,7 +102,6 @@ Bun.serve({
       // File statis tidak ditemukan
     }
 
-    // Halaman 404 Kustom untuk akses publik statis
     return new Response('Halaman tidak ditemukan (404)', {
       status: 404,
       headers: { 'Content-Type': 'text/plain' }

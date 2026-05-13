@@ -9,13 +9,17 @@ export default function handler(req: any, res: any) {
     return res.status(200).end();
   }
 
-  // Penguraian parameter kustom dari req.query bawaan Vercel Serverless
   const query = req.query || {};
   const monthParam = query.month;
   const yearParam = query.year;
 
   const month = monthParam ? parseInt(monthParam as string, 10) : undefined;
   const year = yearParam ? parseInt(yearParam as string, 10) : undefined;
+
+  const validationError = HolidayService.validateQueryParams(month, year);
+  if (validationError) {
+    return res.status(400).json({ error: validationError });
+  }
 
   const data = HolidayService.queryHolidays(month, year);
   return res.status(200).json(data);
